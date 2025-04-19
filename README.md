@@ -4,7 +4,7 @@ This is my personal developer portfolio showcasing my skills, professional exper
 
 ## Live Demo
 
-[Visit Live Portfolio](https://your-deployment-link.com)
+[Visit Live Portfolio](https://hari-krishnan-portfolio.netlify.app/)
 
 ## Features
 
