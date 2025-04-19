@@ -22,8 +22,8 @@ const projects = [
     description:
       "Personal developer portfolio with contact form and admin dashboard integration.",
     techStack: ["React", "TailwindCSS", "Express", "MongoDB"],
-    liveDemo: "https://your-portfolio-link.com",
-    github: "https://github.com/Harikrish58/portfolio",
+    liveDemo: "https://hari-krishnan-portfolio.netlify.app/",
+    github: "https://github.com/Harikrish58/Portfolio-frontend",
     image: portfolio,
   },
   {
