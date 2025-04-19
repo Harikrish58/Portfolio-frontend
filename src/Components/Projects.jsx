@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import blog from "../assets/Blog.png";
-import portfolio from "../assets/portfolio.png";
+import portfolio from "../assets/Portfolio.png";
 import fetchapi from "../assets/FetchAPI.png";
 
 // Array of projects with metadata (title, description, tech stack, links, image)
