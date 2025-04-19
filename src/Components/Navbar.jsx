@@ -2,7 +2,7 @@
 import { Menu, Moon, Sun, X } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 
