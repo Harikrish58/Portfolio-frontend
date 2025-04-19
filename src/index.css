@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global dark mode styling */
+html.dark {
+  @apply bg-gray-900 text-yellow-100;
+}
+
+/* global light mode styling */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
