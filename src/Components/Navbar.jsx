@@ -59,9 +59,8 @@ const Navbar = () => {
           className="cursor-pointer flex items-center space-x-2 text-2xl font-bold h-8"
         >
           <img src={logo} alt="HK Logo" className="h-16 w-auto -mt-1" />
-          <span>
-            Hari{" "}
-            <span className="text-blue-600 dark:text-blue-400">krishnan</span>
+          <span className="text-blue-600 dark:text-blue-400">
+            Hari krishnan
           </span>
         </div>
 
