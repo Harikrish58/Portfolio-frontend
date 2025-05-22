@@ -4,36 +4,61 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import blog from "../assets/Blog.png";
 import portfolio from "../assets/Portfolio.png";
-import fetchapi from "../assets/FetchAPI.png";
+import HaGyustic from "../assets/HaGyustic.png";
 
 // Array of projects with metadata (title, description, tech stack, links, image)
 const projects = [
   {
+    title: "E-commerce Website",
+    description:
+      "HaGyustic is a full-stack eCommerce web app built with the MERN stack. It includes user authentication, product filtering, cart/wishlist, Stripe & PayPal checkout, and an admin dashboard for managing orders, products, and users.",
+    techStack: [
+      "React",
+      "JavaScript",
+      "TailwindCSS",
+      "Redux Toolkit + redux-persist",
+      "REST API",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    liveDemo: "https://hagyustic.netlify.app/",
+    github: "https://github.com/Harikrish58/hagyustic-frontend",
+    image: HaGyustic,
+  },
+  {
     title: "Blog Application",
     description:
       "DevHub is a responsive, full-stack blog application built with React and Tailwind, offering user authentication via Firebase Auth and Google OAuth, image uploads, post creation, and a dark mode feature..",
-    techStack: ["React", "TailwindCSS", "Firebase", "Express", "MongoDB"],
+    techStack: [
+      "React",
+      "JavaScript",
+      "TailwindCSS",
+      "Redux Toolkit + redux-persist",
+      "REST API",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
     liveDemo: "https://devhub-blogapp.netlify.app/",
     github: "https://github.com/Harikrish58/Blog-App_Frontend",
-  image: blog,
+    image: blog,
   },
   {
     title: "Portfolio Website",
     description:
       "Personal developer portfolio with contact form and admin dashboard integration.",
-    techStack: ["React", "TailwindCSS", "Express", "MongoDB"],
+    techStack: [
+      "React",
+      "JavaScript",
+      "TailwindCSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
     liveDemo: "https://hari-krishnan-portfolio.netlify.app/",
     github: "https://github.com/Harikrish58/Portfolio-frontend",
     image: portfolio,
-  },
-  {
-    title: "Countries Weather Forecast App",
-    description:
-      "A JavaScript app that fetches country data and displays weather info using OpenWeatherMap.",
-    techStack: ["HTML", "CSS", "JavaScript", "Bootstrap", "REST API"],
-    liveDemo: "https://fetchapirestcountries.netlify.app",
-    github: "https://github.com/Harikrish58/Fetch-API-restcountries",
-    image: fetchapi,
   },
 ];
 

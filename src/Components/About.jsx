@@ -86,6 +86,10 @@ const skills = [
     name: "VS Code",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
   },
+  {
+    name: "AWS",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+  },
 ];
 
 // Reusable animation wrapper to trigger fade-in when an element scrolls into view
@@ -207,7 +211,9 @@ const About = () => {
           <p className="text-lg leading-relaxed mb-10">
             I’m passionate about creating responsive UIs and scalable backends.
             My current focus is building real-world projects and expanding my
-            skillset in full-stack web development.
+            skillset in full-stack web development. I’m currently learning
+            TypeScript and AWS, focusing on using TypeScript in frontend
+            components and exploring AWS services like S3 and EC2.
           </p>
         </FadeInWhenVisible>
 
