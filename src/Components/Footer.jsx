@@ -87,7 +87,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/hari-krishnan-283360138"
+            href="https://www.linkedin.com/in/hari-krishnan-nagarajan-283360138/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400"
@@ -103,7 +103,7 @@ const Footer = () => {
             <FaEnvelope />
           </a>
           <a
-            href="/HARI KRISHNAN NAGARAJAN CV.pdf"
+            href="/Hari_Krishnan_Nagarajan_Full_Stack_Developer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400"
