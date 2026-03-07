@@ -1,6 +1,5 @@
 // Import required dependencies and icons
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   FaGithub,
   FaLinkedin,
@@ -108,6 +107,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400"
             aria-label="Resume"
+            download
           >
             <FaFileAlt />
           </a>

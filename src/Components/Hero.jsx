@@ -24,13 +24,16 @@ const Hero = () => {
 
         {/* Subheading for role */}
         <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
-          Junior Full-Stack Developer (JavaScript, React.js, Node.js, Next.js) 
+          Junior Full-Stack Developer 
         </h2>
 
         {/* Professional summary */}
         <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-          Junior Full-Stack Developer (JavaScript, React.js, Node.js, Next.js) with hands-on experience building real-world web applications including eCommerce platforms and content systems. Strong foundation in JavaScript, React, Next.js, Node.js, RESTful APIs, authentication, and cloud deployment.
-Career switcher with 5+ years of engineering experience, bringing structured problem-solving, debugging mindset, and teamwork skills into software development. Actively seeking a junior software developer role in Poland.
+          I build modern web applications using JavaScript, TypeScript, React.js, Next.js,
+          Node.js, and MongoDB. <br />
+          Passionate about creating responsive user
+          interfaces, scalable backend systems, and real-world full-stack
+          platforms.
         </p>
 
         {/* CTA buttons for Projects and Contact */}

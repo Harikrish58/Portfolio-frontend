@@ -110,7 +110,7 @@ const Navbar = () => {
 
           {/* LinkedIn icon with external link */}
           <a
-            href="https://www.linkedin.com/in/hari-krishnan-283360138"
+            href="https://www.linkedin.com/in/hari-krishnan-nagarajan-283360138/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl hover:text-blue-600 dark:hover:text-blue-400"

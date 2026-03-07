@@ -125,48 +125,46 @@ const FadeInWhenVisible = ({ children, delay = 0 }) => {
 // Work experience data shown under the Professional Experience section
 const experienceData = [
   {
-    role: "Production Manager — Injection Molding",
-    company: "Ace Rico Poland Sp.z o.o, Poland",
+    role: "Operations Specialist",
+    company: "Ace Rico Poland Sp. z o.o, Poland",
     duration: "Feb 2020 – Present",
     details: [
-      "Led strategic planning and execution to streamline operations, enhance efficiency, and improve profitability.",
-      "Managed manpower, equipment, and materials to meet production targets and customer deadlines effectively.",
-      "Oversaw procurement and material planning based on in-depth production analysis.",
-      "Implemented strict quality control measures to ensure product consistency and regulatory compliance.",
-      "Supervised and developed a team of 60+ staff through onboarding, training, and performance reviews.",
-      "Coordinated with cross-functional teams to ensure smooth workflow and integration across departments.",
-      "Analyzed production reports and provided actionable insights for continuous improvement to senior leadership.",
+      "Analyze operational workflows and production data to identify inefficiencies and optimize processes.",
+      "Plan and coordinate production schedules, material requirements, workforce allocation, and logistics flow.",
+      "Manage procurement planning and cross-department coordination to ensure continuous production operations.",
+      "Maintain structured operational data systems using Excel, ERP tools, and reporting dashboards.",
+      "Monitor production performance metrics and generate KPI reports for management decision-making.",
+      "Perform root-cause analysis for operational issues and implement corrective process improvements.",
+      "Document workflows and support implementation of digital reporting systems and structured data tracking processes.",
     ],
     skills: [
-      "Team Leadership",
-      "Process Optimization (Manufacturing)",
-      "Quality Assurance",
-      "Project Management",
-      "Time Management",
-      "Strategic Planning",
-      "Inventory Management",
-      "Lean Manufacturing",
-      "Cross-Functional Collaboration",
+      "Data Analysis",
+      "Process Optimization",
+      "Operational Planning",
+      "KPI Reporting",
       "Root Cause Analysis",
-      "Workforce Management",
+      "Workflow Documentation",
+      "Cross-Team Coordination",
+      "ERP Systems",
+      "Excel Reporting",
+      "Problem Solving",
     ],
   },
   {
-    role: "Assistant Manager — Injection Molding",
-    company: "Ace Rico Poland Sp.z o.o, Poland",
+    role: "Operations Support Assistant",
+    company: "Ace Rico Poland Sp. z o.o, Poland",
     duration: "Dec 2019 – Jan 2020",
     details: [
-      "Assisted in planning and daily execution of molding operations.",
-      "Monitored raw material usage and managed supplier communication.",
-      "Helped with downtime tracking and performance reporting.",
+      "Assisted with operational reporting, material planning, inventory tracking, and workflow coordination.",
+      "Maintained structured documentation and supported issue tracking for operational processes.",
     ],
     skills: [
+      "Operational Reporting",
+      "Inventory Tracking",
+      "Workflow Coordination",
+      "Documentation",
+      "Data Organization",
       "Problem Solving",
-      "Data Analysis",
-      "Team Leadership",
-      "Time Management",
-      "Inventory Management",
-      "Root Cause Analysis",
     ],
   },
   {
@@ -174,16 +172,16 @@ const experienceData = [
     company: "JK Construction, India",
     duration: "May 2018 – Oct 2019",
     details: [
-      "Supervised residential building projects from foundation to handover.",
-      "Prepared estimates, managed labor teams, and ensured site safety compliance.",
-      "Worked with architects and clients for design implementations.",
+      "Prepared project documentation, cost estimates, procurement records, and progress reports.",
+      "Coordinated suppliers and ensured compliance with project standards and timelines.",
     ],
     skills: [
-      "Project Management",
-      "Quality Assurance",
-      "Time Management",
-      "Problem Solving",
-      "Team Leadership",
+      "Project Documentation",
+      "Cost Estimation",
+      "Procurement Coordination",
+      "Quality Compliance",
+      "Project Reporting",
+      "Supplier Coordination",
     ],
   },
 ];
@@ -204,22 +202,23 @@ const About = () => {
         {/* Introduction paragraph */}
         <FadeInWhenVisible delay={0.1}>
           <p className="text-lg leading-relaxed mb-6">
-            I’m Hari Krishnan Nagarajan, an aspiring full-stack developer with
-            hands-on experience building responsive web applications using the
-            MERN stack. I bring 5+ years of experience in production management
-            and team leadership — now channeling that discipline into building
-            web applications.
+            I'm Hari Krishnan, a Junior Full-Stack Developer with hands-on
+            experience building modern web applications using JavaScript,
+            React.js, Next.js, Node.js, and MongoDB. Experienced in developing
+            REST APIs, authentication systems, and full-stack platforms
+            including eCommerce and CMS-style applications.
           </p>
         </FadeInWhenVisible>
 
         {/* Second paragraph */}
         <FadeInWhenVisible delay={0.2}>
           <p className="text-lg leading-relaxed mb-10">
-            I’m passionate about creating responsive UIs and scalable backends.
-            My current focus is building real-world projects and expanding my
-            skillset in full-stack web development. I’m currently learning
-            TypeScript and AWS, focusing on using TypeScript in frontend
-            components and exploring AWS services like S3 and EC2.
+            Background in operations and data-driven problem solving, bringing
+            6+ years of experience analyzing workflows, diagnosing issues, and
+            improving processes in high-volume environments. This experience
+            strengthened my analytical thinking and helps me approach debugging,
+            system design, and problem solving effectively when building
+            software.
           </p>
         </FadeInWhenVisible>
 
