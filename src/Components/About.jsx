@@ -45,6 +45,18 @@ const skills = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original.svg",
   },
   {
+    name: "SQL",
+    logo: "https://cdn-icons-png.flaticon.com/512/2772/2772128.png",
+  },
+  {
+    name: "MySQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+  },
+  {
+    name: "PostgreSQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  },
+  {
     name: "Express.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   },
@@ -204,9 +216,10 @@ const About = () => {
           <p className="text-lg leading-relaxed mb-6">
             I'm Hari Krishnan, a Junior Full-Stack Developer with hands-on
             experience building modern web applications using JavaScript,
-            React.js, Next.js, Node.js, and MongoDB. Experienced in developing
-            REST APIs, authentication systems, and full-stack platforms
-            including eCommerce and CMS-style applications.
+            React.js, Node.js, and MongoDB. I also have working knowledge of
+            Next.js and SQL databases including MySQL and PostgreSQL.
+            Experienced in developing REST APIs, authentication systems(JWT), and
+            full-stack platforms such as eCommerce and CMS-style applications.
           </p>
         </FadeInWhenVisible>
 
