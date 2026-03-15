@@ -86,7 +86,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/hari-krishnan-nagarajan-283360138/"
+            href="https://www.linkedin.com/in/hari-krishnan-nagarajan/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400"
@@ -107,6 +107,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400"
             aria-label="Resume"
+            title="Download Resume"
             download
           >
             <FaFileAlt />

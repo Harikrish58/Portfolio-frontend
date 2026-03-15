@@ -49,12 +49,16 @@ const skills = [
     logo: "https://cdn-icons-png.flaticon.com/512/2772/2772128.png",
   },
   {
+    name: "PostgreSQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  },
+  {
     name: "MySQL",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
   },
   {
-    name: "PostgreSQL",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    name: "Prisma ORM",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
   },
   {
     name: "Express.js",
@@ -99,10 +103,6 @@ const skills = [
   {
     name: "GitHub",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-  },
-  {
-    name: "VS Code",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
   },
   {
     name: "AWS",
@@ -218,8 +218,9 @@ const About = () => {
             experience building modern web applications using JavaScript,
             React.js, Node.js, and MongoDB. I also have working knowledge of
             Next.js and SQL databases including MySQL and PostgreSQL.
-            Experienced in developing REST APIs, authentication systems(JWT), and
-            full-stack platforms such as eCommerce and CMS-style applications.
+            Experienced in developing REST APIs, authentication systems(JWT),
+            and full-stack platforms such as eCommerce and CMS-style
+            applications.
           </p>
         </FadeInWhenVisible>
 
